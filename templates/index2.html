@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <style>
+        .box {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: skyblue;
+        border-radius: 10px;
+        }
+        .outter-box{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="outter-box">
+        <h1>Welcome</h1>
+            {%for x in range(0,num) %}
+                <div class="box"></div>
+            {% endfor %}
+
+    </div>
+</body>
+</html>
